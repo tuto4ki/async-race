@@ -1,0 +1,13 @@
+.garage {
+  & .list-cars {
+    margin: 30px 0;
+    .item-car {
+      border-bottom: solid 1px black;
+    }
+  }
+  .create-car, .update-car {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}

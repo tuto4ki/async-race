@@ -1,0 +1,47 @@
+$green: #46ff0078;
+$greenActive: #17ff91;
+$grey: #827f7fcd;
+body {
+  margin: 0px;
+  padding: 10px;
+  font-size: 16px;
+}
+button {
+  padding: 2px 5px;
+  margin: 5px;
+  height: 24px;
+  cursor: pointer;
+  border: 1px solid $greenActive;
+  background-color: $green;
+  border-radius: 5px;
+  font-size: 14px;
+  &:hover {
+    background-color: $greenActive;
+  }
+}
+input {
+  height: 24px;
+  width: 200px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  &[type="color"] {
+    width: 40px;
+    &::-webkit-color-swatch-wrapper {
+      padding: 0px;
+    }
+  }
+}
+.hidden {
+  display: none;
+}
+.main {
+  margin: 20px 0;
+}
+.no-active {
+  background-color: $grey;
+  cursor: default;
+  &:hover {
+    background-color: $grey;
+  }
+}

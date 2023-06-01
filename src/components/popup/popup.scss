@@ -1,0 +1,13 @@
+$greenActive: #17ff91;
+.popup {
+  position: fixed;
+  top: calc(50% - 1rem);
+  z-index: 100;
+  font-size: 2rem;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  color: $greenActive;
+}

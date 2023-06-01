@@ -1,0 +1,20 @@
+$widthCar: 70px;
+.car-img {
+  width: $widthCar;
+  height: 50px;
+}
+.item-car {
+  &_flag {
+    width: 40px;
+    height: 40px;
+  }
+  &_move {
+    display: flex;
+    & .picture-car {
+      flex-grow: 1;
+    }
+  }
+  .picture-car {
+    background: url('../../images/flag.png') no-repeat right $widthCar top;
+  }
+}
